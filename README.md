@@ -9,6 +9,11 @@ single HTML file.
 The map is automatically rebuilt and published to **GitHub Pages** every few
 hours by a GitHub Actions workflow, and can also be refreshed manually.
 
+Because WAQI stations don't all report on the same schedule, the map shows
+the **range** of observation times across the plotted stations (in UTC) in a
+caption box, rather than a single "as of" timestamp — some readings on the
+map may be noticeably fresher than others.
+
 ## PM2.5 caveat
 
 WAQI's public feed exposes the PM2.5 *AQI sub-index* value (`iaqi.pm25.v`),

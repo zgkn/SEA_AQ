@@ -14,6 +14,7 @@ import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timezone
 from io import BytesIO
 
 import folium
@@ -92,7 +93,7 @@ def fetch_stations(token, bounds=SEA_BOUNDS, max_workers=10, timeout=15):
                 "lat": data.get("city", {}).get("geo", [station.get("lat"), station.get("lon")])[0],
                 "lon": data.get("city", {}).get("geo", [station.get("lat"), station.get("lon")])[1],
                 "pm25": float(pm25),
-                "time": data.get("time", {}).get("s"),
+                "time": data.get("time", {}).get("iso") or data.get("time", {}).get("s"),
             }
         except (requests.RequestException, ValueError, KeyError, TypeError):
             return None
@@ -186,6 +187,61 @@ def band_for(value):
     return BAND_LABELS[-1][2], BAND_LABELS[-1][3]
 
 
+def parse_station_time(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def format_station_time(value):
+    dt = parse_station_time(value)
+    if dt is None:
+        return value or "n/a"
+    return dt.strftime("%Y-%m-%d %H:%M %z")
+
+
+def compute_time_range(stations):
+    parsed = [parse_station_time(s.get("time")) for s in stations]
+    # Only timezone-aware timestamps can be safely compared/converted to UTC;
+    # WAQI's `time.iso` field always includes an offset, so this only drops
+    # entries with missing/malformed timestamps.
+    utc_times = [dt.astimezone(timezone.utc) for dt in parsed if dt is not None and dt.tzinfo is not None]
+    if not utc_times:
+        return None
+    return min(utc_times), max(utc_times), len(utc_times)
+
+
+TIME_RANGE_HTML = """
+<div style="
+    position: fixed; top: 10px; left: 50px; z-index: 9999;
+    background: white; padding: 8px 12px; border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4); font-family: sans-serif; font-size: 13px;
+    max-width: 320px;">
+  {text}
+</div>
+"""
+
+
+def build_time_range_banner(stations):
+    time_range = compute_time_range(stations)
+    if time_range is None:
+        return TIME_RANGE_HTML.format(text="Data observed: unknown")
+
+    min_dt, max_dt, n = time_range
+    fmt = "%Y-%m-%d %H:%M"
+    if min_dt == max_dt:
+        text = f"Data observed: {min_dt.strftime(fmt)} UTC ({n} stations)"
+    else:
+        text = (
+            f"Data observed between {min_dt.strftime(fmt)} and {max_dt.strftime(fmt)} UTC "
+            f"({n} stations) &mdash; stations do not all update at the same time."
+        )
+    return TIME_RANGE_HTML.format(text=text)
+
+
 LEGEND_HTML = """
 <div style="
     position: fixed; bottom: 30px; left: 30px; z-index: 9999;
@@ -229,7 +285,7 @@ def build_map(stations, lats, lons, grid, bounds, output_path):
             html=(
                 f"<b>{s['name']}</b><br>"
                 f"PM2.5: {s['pm25']:.0f} ({label})<br>"
-                f"Observed: {s.get('time', 'n/a')}"
+                f"Observed: {format_station_time(s.get('time'))}"
             ),
             max_width=250,
         )
@@ -245,6 +301,7 @@ def build_map(stations, lats, lons, grid, bounds, output_path):
         ).add_to(fmap)
 
     fmap.get_root().html.add_child(folium.Element(build_legend()))
+    fmap.get_root().html.add_child(folium.Element(build_time_range_banner(stations)))
 
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     fmap.save(output_path)
