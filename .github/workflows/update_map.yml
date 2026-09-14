@@ -2,7 +2,7 @@ name: Update SEA Air Quality Map
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours; conservative given WAQI token limits
+    - cron: "47 * * * *"   # every 1 hour at minute 47 (odd timing to avoid GitHub queuing delays)
   workflow_dispatch: {}
 
 permissions:
