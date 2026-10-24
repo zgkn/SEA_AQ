@@ -1,0 +1,10 @@
+api3/publicmapproxy
+publicportalapims/apimststation
+publicportalapims/apiranking
+publicportalapims/apitablehourly
+publicportalapims/currentapicurrentlocation
+publicportalapims/datatrendchart
+publicportalapims/getstationidbylonglat
+publicportalapims/mapcaqm
+publicportalapims/statelist
+publicportalmqims/mqimsstation

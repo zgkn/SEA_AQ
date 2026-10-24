@@ -1,0 +1,602 @@
+[
+  {
+    "n": 0,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/Attribution/t9n/Attribution_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 1,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/Home/t9n/Home_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 2,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/t9n/common_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 3,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/Fullscreen/t9n/Fullscreen_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 4,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/Zoom/t9n/Zoom_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 5,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/BasemapGallery/t9n/BasemapGallery_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 6,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/Expand/t9n/Expand_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 7,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/widgets/Track/t9n/Track_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 8,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/t9n/basemaps_en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 9,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/portals/self?f=json&culture=en-us",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 10,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/button/t9n/messages.en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 11,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/action/t9n/messages.en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 12,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/popover/t9n/messages.en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 13,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/icon/plus16.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 16,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/icon/minus16.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 17,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/icon/zoomOutFixed16.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 18,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/icon/home16.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 14,
+    "method": "GET",
+    "url": "https://eqms.doe.gov.my/api3/publicportalapims/mapcaqm?_ts=1792812223779",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_len": 17201
+  },
+  {
+    "n": 15,
+    "method": "GET",
+    "url": "https://eqms.doe.gov.my/api3/publicportalapims/apitablehourly?stateid=16&datetime=2026-10-24T03:00:00&",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_len": 6763
+  },
+  {
+    "n": 19,
+    "method": "GET",
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/styles/root.json?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 20,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/icon/basemap16.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 21,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/community/groups?f=json&bbox=&q=title%3A%22United%20States%20Vector%20Basemaps%22%20AND%20owner%3AEsri_cy_US&num=10&start=1",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 22,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 23,
+    "method": "GET",
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/sprites/sprite.json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 24,
+    "method": "GET",
+    "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json",
+    "status": 200,
+    "content_type": "text/plain;charset=utf-8"
+  },
+  {
+    "n": 25,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/groups/68efc5ce1e0b43cb819f7bba4a6bd7ea/search?f=json&bbox=&q=type%3A%22Web%20Map%22%20-type%3A%22Web%20Application%22&num=100&sortField=name&sortOrder=asc&start=1",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 26,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/5/0/0/32/32?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 27,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/4/0/0/32/32?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 28,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/3/0/0/32/32?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 29,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/2/0/0/32/32?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 30,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/1/0/0/32/32?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 31,
+    "method": "GET",
+    "url": "https://eqms.doe.gov.my/api3/publicportalapims/apiranking",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_len": 447
+  },
+  {
+    "n": 32,
+    "method": "GET",
+    "url": "https://eqms.doe.gov.my/api3/publicportalapims/statelist",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_len": 2503
+  },
+  {
+    "n": 33,
+    "method": "GET",
+    "url": "https://eqms.doe.gov.my/api3/publicportalapims/datatrendchart?stateid=16&datetime=2026-10-24T03:00:00&",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_len": 3818
+  },
+  {
+    "n": 34,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/components/assets/scrim/t9n/messages.en.json",
+    "status": 200,
+    "content_type": "application/json"
+  },
+  {
+    "n": 35,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/0d17ba68a8f64c278e7e2e7864e1069d/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 36,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/86de95d4e0244cba80f0fa2c9403a7b2/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 37,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/668f436dc2dc4f2c83ceb0c064380590/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 38,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/b39a6353a02d4cef9262d35db10a4143/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 39,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/c5b0e6e1ded840639b8b4ff3d9927145/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 40,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/22fb75c0fa5a4c88b8ca4c4b8ae5c90b/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 41,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/e128f7554370429c91ef7c0e260c078a/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 42,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/93a76c89f9ea4c169f116c0715e37f6f/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 43,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/16/26.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 44,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/16/25.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 45,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/c29cfb7875fc4b97b58ba6987c460862/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 46,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/d9eb1392e6504930b5fbd9689ac32ff4/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 47,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/8d57f09b9df345e79945f0f3da1d4d0f/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 48,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/15/26.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 49,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/752d5eb93f38494082ae19bd718fac98/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 50,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/e45454cc103f467db8fd4c145122ee42/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 51,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/16/27.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 52,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/15/25.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 53,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/2397372e8bf34ca1a9e346d346197842/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 54,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/077d7ab74898469f94fea84c59f68ef6/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 55,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/6d9fa6d159ae4a1f80b9e296ed300767/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 56,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/16/24.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 57,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/15/27.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 58,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/5/15/24.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 59,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/a0b3492409bc45c6abecfc5b081c336c/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 60,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/755dc1e5660042d4874fca2d96ed4bf4/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 61,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/d79fdaf65e014686b5bde5b24216907b/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 62,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/02fc19a7fe334f47881db1dd3477fef8/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 63,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/fa24d46b47aa4ce29f8d1a457089a2f1/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 64,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/77992696200d4b419ca24c545284f7a1/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 65,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/83aeff137ea54be986e568fe206376d5/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 66,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/8efddf97a1a74a3ea47c90c3fe62df91/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 67,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/bb6c3aa9f44e444a8f5de18030f6b4be/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 68,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/908967a20fee4d1db3ff5149ec6efcc5/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 69,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/83204ea4090446c4aae868bba6454597/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 70,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/7a4aa667d61541c583d9a723c8b349da/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 71,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/33d6280d276d4af89fb66a6ffa7f2072/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 72,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/77b3505cd7ae4484ac3fc253a50ee9c8/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 73,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/755c7737c8cf4443be78e79df16dec80/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 74,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/e1684637c34c45b1b685c53e63d7f2b8/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 75,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/cb31316d3fba44799f23312d721bfb5c/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 76,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/3570ad47abee48c59170c7eea3f4c2c1/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 77,
+    "method": "GET",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/aa012d7f13f347618aed0fd24a7df40a/data?f=json",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "n": 78,
+    "method": "POST",
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TZ2X3H0DQE&gtm=45je6al1v9196030961za208zd9196030961xf1&_p=1792812224441&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1765838883&cid=1093878319.1792812225&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1400x900&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792812224&sct=1&seg=0&dl=https%3A%2F%2Feqms.doe.gov.my%2FAPIMS%2Fmain&dt=MyEQMS&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=6244",
+    "status": 204,
+    "content_type": "text/plain"
+  },
+  {
+    "n": 79,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/core/libs/libtess/libtess.wasm",
+    "status": 200,
+    "content_type": "application/wasm"
+  },
+  {
+    "n": 80,
+    "method": "GET",
+    "url": "https://js.arcgis.com/4.34/@arcgis/core/assets/esri/core/libs/libtess/libtess.wasm",
+    "status": 200,
+    "content_type": "application/wasm"
+  },
+  {
+    "n": 81,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Arial%20Bold/0-255.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 82,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Arial%20Regular/0-255.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 83,
+    "method": "GET",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Arial%20Italic/0-255.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream"
+  },
+  {
+    "n": 84,
+    "method": "GET",
+    "url": "https://static.arcgis.com/fonts/arial-regular/0-255.pbf",
+    "status": 200,
+    "content_type": "binary/octet-stream"
+  }
+]
