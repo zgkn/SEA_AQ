@@ -5,7 +5,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
@@ -25,6 +25,18 @@ jobs:
 
       - name: Probe MyEQMS
         run: python eqms_test/probe.py
+
+      - name: Commit probe output (HAR excluded)
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f eqms_out/session.har
+          mkdir -p eqms_test/out
+          cp -r eqms_out/. eqms_test/out/
+          git add eqms_test/out
+          git commit -m "EQMS probe results" || echo "nothing to commit"
+          git push
 
       - uses: actions/upload-artifact@v4
         if: always()

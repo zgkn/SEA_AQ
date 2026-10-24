@@ -36,7 +36,7 @@ def on_response(resp):
         if "json" in ct or "text" in ct:
             body = resp.text()
             entry["body_len"] = len(body)
-            (OUT / f"resp_{entry['n']:03d}.txt").write_text(body[:300_000])
+            (OUT / f"resp_{entry['n']:03d}.txt").write_text(body[:100_000])
             entry["preview"] = body[:300]
             entry["mentions_pm25"] = bool(re.search(r"pm\s?2\.?5", body, re.I))
     except Exception as exc:  # response may be gone after navigation
